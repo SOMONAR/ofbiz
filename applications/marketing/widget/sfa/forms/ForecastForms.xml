@@ -123,7 +123,7 @@ under the License.
                 </entity-options>
             </drop-down>
         </field>
-        <field name="productId" title="${uiLabelMap.ProductProduct}">
+        <field name="productId" title="${uiLabelMap.CommonProduct}">
             <lookup target-form-name="LookupProduct"/>
         </field>
         <field name="productCategoryId" title="${uiLabelMap.ProductCategory}">
