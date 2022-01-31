@@ -97,7 +97,7 @@ under the License.
                 </entity-options>
             </drop-down>
         </field>
-        <field name="productId" title="${uiLabelMap.AccountingProductId}">
+        <field name="productId" title="${uiLabelMap.ProductProduct}">
             <lookup target-form-name="LookupProduct"/>
         </field>
         <field name="productCategoryId" title="${uiLabelMap.ProductProductCategoryId}">
@@ -123,10 +123,10 @@ under the License.
                 </entity-options>
             </drop-down>
         </field>
-        <field name="productId" title="${uiLabelMap.AccountingProductId}">
+        <field name="productId" title="${uiLabelMap.ProductProduct}">
             <lookup target-form-name="LookupProduct"/>
         </field>
-        <field name="productCategoryId" title="${uiLabelMap.ProductProductCategoryId}">
+        <field name="productCategoryId" title="${uiLabelMap.ProductCategory}">
             <lookup target-form-name="LookupProductCategory"/>
         </field>
         <field name="submitButton" title="${uiLabelMap.CommonAdd}"><submit button-type="button"/></field>
