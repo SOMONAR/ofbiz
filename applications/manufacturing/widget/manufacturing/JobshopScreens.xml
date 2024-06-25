@@ -38,9 +38,6 @@ under the License.
                                 <container>
                                     <label style="h1">[${uiLabelMap.CommonId} ${productionRunId}]</label>
                                 </container>
-                                <container style="button-bar">
-                                    <link target="CreateProductionRun" text="${uiLabelMap.CommonCreate}" style="buttontext"/>
-                                </container>
                                 <decorator-section-include name="body"/>
                             </widgets>
                         </section>
